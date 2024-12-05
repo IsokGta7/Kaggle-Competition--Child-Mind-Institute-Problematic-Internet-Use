@@ -1,6 +1,6 @@
 # Prediccion de el uso problematico del Internet en la poblacion juvenil.
 
-La meta de este proyecto es crear un modelo capaz de identificar el uso problematico del internet en la poblacion juvenil por medio del uso de patrones en los datos de actividad fisica de la poblacion. Al utilizar estos medios mas accesibles planeamos darle acceso a las comunidades de escazos recursos a la oportunidad de detectar el mal uso del internet para promover mejores habitos.
+La meta de este proyecto es crear un modelo capaz de identificar las afectaciones en la población juvenil ocasionadas por el abuso del uso de internet por medio del análisis de patrones en los datos de actividad física de la población. Al utilizar estos medios más accesibles planeamos darle acceso a las comunidades de escasos recursos la oportunidad de detectar el mal uso del internet para promover mejores hábitos.
 
 ## Tabla de contenidos
 - [Planteamiento del problema](#planteamiento-del-problema)
@@ -109,5 +109,5 @@ Formula:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/problematic-internet-use.git
+   git clone https://github.com/IsokGta7/Kaggle-Competition--Child-Mind-Institute-Problematic-Internet-Use.git
    cd problematic-internet-use

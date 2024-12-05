@@ -17,13 +17,15 @@ La meta de este proyecto es crear un modelo capaz de identificar las afectacione
 
 ## Planteamiento del problema
 
-Los metodos actuales para la solucion de la problematica causada por el mal uso del internet requieren de evaluaciones clinicas, lo cual lo hace inaccesible para las comunidades con escazos recursos, barreras logisticas u otras barreras culturales. El proyecto utiliza datos como patrones de actividad fisica, datos demograficos, y evaluaciones fisicas para predecir el **Indice de Gravedad del Deterioro** o **Severity Impairment Index (sii)** en ingles.
+Los metodos actuales para la solucion de la problematica causada por el mal uso del internet requieren de evaluaciones clinicas, lo cual lo hace inaccesible para las comunidades con escazos recursos, barreras logisticas u otras barreras culturales. 
+
+El proyecto utiliza datos como patrones de actividad fisica, datos demograficos, y evaluaciones fisicas para predecir el **Indice de Gravedad del Deterioro** o **Severity Impairment Index (sii)** en ingles.
 
 ---
 
 ## Descripcion de los datos
 
-Los datos para este proyecto fueron proporcionados por [Healthy Brain Network (HBN)](https://healthybrainnetwork.org/), fueron obtenidos por medio de un estudio clinico de participantes entre las edades de 5 a 22 años. Los datos fueron obtenidos por medio de 2 metodos principales:
+Los datos para este proyecto fueron proporcionados por [Healthy Brain Network (HBN)](https://healthybrainnetwork.org/), fueron obtenidos por medio de un estudio clinico de aproximadamente cinco mil participantes entre las edades de 5 a 22 años. Los datos fueron obtenidos por medio de 2 metodos principales:
 
 1. **Datos Tabulados:** Informacion demografica, informacion del uso de internet, medidas de actividad fisica, y evaluaciones de salud mental.
 2. **Datos de Actigrafia:** Series de tiempo tomadas de acelerometros en dispositivos utilizados por los participantes.
@@ -43,7 +45,9 @@ Para una descripcion mas detallada, revisar el archivo `data_dictionary.csv`.
 
 ## Metrica de Evaluacion
 
-El proyecto utilizara el metodo **Quadratic Weighted Kappa (QWK)** como una evaluacion metrica. Este metodo evalua la concordancia entre los valores reales y los valores predichos, tomando en cuenta el grado de desacuerdo. Una puntuacion QWK de 1 indica una concordancia perfecta, mientras que una puntuacion QWK de 0 indica una concordancia aleatoria.
+El proyecto utilizara el metodo **Quadratic Weighted Kappa (QWK)** como una evaluacion metrica. Este metodo evalua la concordancia entre los valores reales y los valores predichos, tomando en cuenta el grado de desacuerdo. 
+
+Una puntuacion QWK de 1 indica una concordancia perfecta, mientras que una puntuacion QWK de 0 indica una concordancia aleatoria.
 
 Formula:  
 ![QWK Formula](https://miro.medium.com/v2/resize:fit:1350/1*PwYp7fa2DFgCYdjd5awMuQ.png)
@@ -58,6 +62,7 @@ Formula:
 │   ├── test.csv               # Datos de prueba tabulares
 │   ├── series_train.parquet   # Datos de entrenamiento de series temporales de actigrafía
 │   ├── series_test.parquet    # Datos de prueba de series temporales de actigrafía
+│   ├── data_dictionary.csv    # Diccionario de los datos
 ├── notebooks/
 │   ├── exploratory_analysis.ipynb  # Exploracion y visualizacion de datos
 │   ├── preprocessing.ipynb         # Limpieza y preprocesamiento de datos
@@ -110,4 +115,5 @@ Formula:
 1. Clone the repository:
    ```bash
    git clone https://github.com/IsokGta7/Kaggle-Competition--Child-Mind-Institute-Problematic-Internet-Use.git
-   cd problematic-internet-use
+   cd Kaggle-Competition--Child-Mind-Institute-Problematic-Internet-Use
+

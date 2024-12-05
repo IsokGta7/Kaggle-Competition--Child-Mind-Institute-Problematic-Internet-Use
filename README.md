@@ -112,7 +112,7 @@ Formula:
 
 ## Instalacion
 
-1. Clone the repository:
+1. Clona el repositorio:
    ```bash
    git clone https://github.com/IsokGta7/Kaggle-Competition--Child-Mind-Institute-Problematic-Internet-Use.git
    cd Kaggle-Competition--Child-Mind-Institute-Problematic-Internet-Use

@@ -46,7 +46,7 @@ Para una descripcion mas detallada, revisar el archivo `data_dictionary.csv`.
 El proyecto utilizara el metodo **Quadratic Weighted Kappa (QWK)** como una evaluacion metrica. Este metodo evalua la concordancia entre los valores reales y los valores predichos, tomando en cuenta el grado de desacuerdo. Una puntuacion QWK de 1 indica una concordancia perfecta, mientras que una puntuacion QWK de 0 indica una concordancia aleatoria.
 
 Formula:  
-![QWK Formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/a713b5d0b9c523c2589f4d0605e6ea0598c20c2b)
+![QWK Formula](https://miro.medium.com/v2/resize:fit:1350/1*PwYp7fa2DFgCYdjd5awMuQ.png)
 
 ---
 

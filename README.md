@@ -52,6 +52,7 @@ Formula:
 
 ## Estructura del Proyecto
 
+```plaintext
 ├── data/
 │   ├── train.csv              # Datos de entrenamiento tabulares
 │   ├── test.csv               # Datos de prueba tabulares
@@ -71,7 +72,7 @@ Formula:
 ├── README.md
 ├── requirements.txt
 └── LICENSE
-
+```
 
 
 ---
